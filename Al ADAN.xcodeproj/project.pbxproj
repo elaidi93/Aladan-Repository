@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBC4FBA71C2AE9FE00A39D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4FBA61C2AE9FE00A39D5F /* AppDelegate.swift */; };
+		BBC4FBA91C2AE9FE00A39D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4FBA81C2AE9FE00A39D5F /* ViewController.swift */; };
+		BBC4FBAC1C2AE9FE00A39D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC4FBAA1C2AE9FE00A39D5F /* Main.storyboard */; };
+		BBC4FBAE1C2AE9FE00A39D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC4FBAD1C2AE9FE00A39D5F /* Assets.xcassets */; };
+		BBC4FBB11C2AE9FE00A39D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC4FBAF1C2AE9FE00A39D5F /* LaunchScreen.storyboard */; };
+		BBC4FBBC1C2AE9FE00A39D5F /* Al_ADANTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4FBBB1C2AE9FE00A39D5F /* Al_ADANTests.swift */; };
+		BBC4FBC71C2AE9FE00A39D5F /* Al_ADANUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4FBC61C2AE9FE00A39D5F /* Al_ADANUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBC4FBB81C2AE9FE00A39D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBC4FB9B1C2AE9FE00A39D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC4FBA21C2AE9FE00A39D5F;
+			remoteInfo = "Al ADAN";
+		};
+		BBC4FBC31C2AE9FE00A39D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBC4FB9B1C2AE9FE00A39D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC4FBA21C2AE9FE00A39D5F;
+			remoteInfo = "Al ADAN";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBC4FBA31C2AE9FE00A39D5F /* Al ADAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Al ADAN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC4FBA61C2AE9FE00A39D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBC4FBA81C2AE9FE00A39D5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBC4FBAB1C2AE9FE00A39D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBC4FBAD1C2AE9FE00A39D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBC4FBB01C2AE9FE00A39D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBC4FBB21C2AE9FE00A39D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC4FBB71C2AE9FE00A39D5F /* Al ADANTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Al ADANTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC4FBBB1C2AE9FE00A39D5F /* Al_ADANTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Al_ADANTests.swift; sourceTree = "<group>"; };
+		BBC4FBBD1C2AE9FE00A39D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC4FBC21C2AE9FE00A39D5F /* Al ADANUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Al ADANUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC4FBC61C2AE9FE00A39D5F /* Al_ADANUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Al_ADANUITests.swift; sourceTree = "<group>"; };
+		BBC4FBC81C2AE9FE00A39D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBC4FBA01C2AE9FE00A39D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC4FBB41C2AE9FE00A39D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC4FBBF1C2AE9FE00A39D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBC4FB9A1C2AE9FE00A39D5F = {
+			isa = PBXGroup;
+			children = (
+				BBC4FBA51C2AE9FE00A39D5F /* Al ADAN */,
+				BBC4FBBA1C2AE9FE00A39D5F /* Al ADANTests */,
+				BBC4FBC51C2AE9FE00A39D5F /* Al ADANUITests */,
+				BBC4FBA41C2AE9FE00A39D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBC4FBA41C2AE9FE00A39D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBC4FBA31C2AE9FE00A39D5F /* Al ADAN.app */,
+				BBC4FBB71C2AE9FE00A39D5F /* Al ADANTests.xctest */,
+				BBC4FBC21C2AE9FE00A39D5F /* Al ADANUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBC4FBA51C2AE9FE00A39D5F /* Al ADAN */ = {
+			isa = PBXGroup;
+			children = (
+				BBC4FBA61C2AE9FE00A39D5F /* AppDelegate.swift */,
+				BBC4FBA81C2AE9FE00A39D5F /* ViewController.swift */,
+				BBC4FBAA1C2AE9FE00A39D5F /* Main.storyboard */,
+				BBC4FBAD1C2AE9FE00A39D5F /* Assets.xcassets */,
+				BBC4FBAF1C2AE9FE00A39D5F /* LaunchScreen.storyboard */,
+				BBC4FBB21C2AE9FE00A39D5F /* Info.plist */,
+			);
+			path = "Al ADAN";
+			sourceTree = "<group>";
+		};
+		BBC4FBBA1C2AE9FE00A39D5F /* Al ADANTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBC4FBBB1C2AE9FE00A39D5F /* Al_ADANTests.swift */,
+				BBC4FBBD1C2AE9FE00A39D5F /* Info.plist */,
+			);
+			path = "Al ADANTests";
+			sourceTree = "<group>";
+		};
+		BBC4FBC51C2AE9FE00A39D5F /* Al ADANUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBC4FBC61C2AE9FE00A39D5F /* Al_ADANUITests.swift */,
+				BBC4FBC81C2AE9FE00A39D5F /* Info.plist */,
+			);
+			path = "Al ADANUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBC4FBA21C2AE9FE00A39D5F /* Al ADAN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC4FBCB1C2AE9FE00A39D5F /* Build configuration list for PBXNativeTarget "Al ADAN" */;
+			buildPhases = (
+				BBC4FB9F1C2AE9FE00A39D5F /* Sources */,
+				BBC4FBA01C2AE9FE00A39D5F /* Frameworks */,
+				BBC4FBA11C2AE9FE00A39D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Al ADAN";
+			productName = "Al ADAN";
+			productReference = BBC4FBA31C2AE9FE00A39D5F /* Al ADAN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBC4FBB61C2AE9FE00A39D5F /* Al ADANTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC4FBCE1C2AE9FE00A39D5F /* Build configuration list for PBXNativeTarget "Al ADANTests" */;
+			buildPhases = (
+				BBC4FBB31C2AE9FE00A39D5F /* Sources */,
+				BBC4FBB41C2AE9FE00A39D5F /* Frameworks */,
+				BBC4FBB51C2AE9FE00A39D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBC4FBB91C2AE9FE00A39D5F /* PBXTargetDependency */,
+			);
+			name = "Al ADANTests";
+			productName = "Al ADANTests";
+			productReference = BBC4FBB71C2AE9FE00A39D5F /* Al ADANTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBC4FBC11C2AE9FE00A39D5F /* Al ADANUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC4FBD11C2AE9FE00A39D5F /* Build configuration list for PBXNativeTarget "Al ADANUITests" */;
+			buildPhases = (
+				BBC4FBBE1C2AE9FE00A39D5F /* Sources */,
+				BBC4FBBF1C2AE9FE00A39D5F /* Frameworks */,
+				BBC4FBC01C2AE9FE00A39D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBC4FBC41C2AE9FE00A39D5F /* PBXTargetDependency */,
+			);
+			name = "Al ADANUITests";
+			productName = "Al ADANUITests";
+			productReference = BBC4FBC21C2AE9FE00A39D5F /* Al ADANUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBC4FB9B1C2AE9FE00A39D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Hamza El Aidi";
+				TargetAttributes = {
+					BBC4FBA21C2AE9FE00A39D5F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					BBC4FBB61C2AE9FE00A39D5F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = BBC4FBA21C2AE9FE00A39D5F;
+					};
+					BBC4FBC11C2AE9FE00A39D5F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = BBC4FBA21C2AE9FE00A39D5F;
+					};
+				};
+			};
+			buildConfigurationList = BBC4FB9E1C2AE9FE00A39D5F /* Build configuration list for PBXProject "Al ADAN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBC4FB9A1C2AE9FE00A39D5F;
+			productRefGroup = BBC4FBA41C2AE9FE00A39D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBC4FBA21C2AE9FE00A39D5F /* Al ADAN */,
+				BBC4FBB61C2AE9FE00A39D5F /* Al ADANTests */,
+				BBC4FBC11C2AE9FE00A39D5F /* Al ADANUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBC4FBA11C2AE9FE00A39D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC4FBB11C2AE9FE00A39D5F /* LaunchScreen.storyboard in Resources */,
+				BBC4FBAE1C2AE9FE00A39D5F /* Assets.xcassets in Resources */,
+				BBC4FBAC1C2AE9FE00A39D5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC4FBB51C2AE9FE00A39D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC4FBC01C2AE9FE00A39D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBC4FB9F1C2AE9FE00A39D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC4FBA91C2AE9FE00A39D5F /* ViewController.swift in Sources */,
+				BBC4FBA71C2AE9FE00A39D5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC4FBB31C2AE9FE00A39D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC4FBBC1C2AE9FE00A39D5F /* Al_ADANTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC4FBBE1C2AE9FE00A39D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC4FBC71C2AE9FE00A39D5F /* Al_ADANUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBC4FBB91C2AE9FE00A39D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBC4FBA21C2AE9FE00A39D5F /* Al ADAN */;
+			targetProxy = BBC4FBB81C2AE9FE00A39D5F /* PBXContainerItemProxy */;
+		};
+		BBC4FBC41C2AE9FE00A39D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBC4FBA21C2AE9FE00A39D5F /* Al ADAN */;
+			targetProxy = BBC4FBC31C2AE9FE00A39D5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBC4FBAA1C2AE9FE00A39D5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBC4FBAB1C2AE9FE00A39D5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBC4FBAF1C2AE9FE00A39D5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBC4FBB01C2AE9FE00A39D5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBC4FBC91C2AE9FE00A39D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBC4FBCA1C2AE9FE00A39D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBC4FBCC1C2AE9FE00A39D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Al ADAN/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tensift.Al-ADAN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBC4FBCD1C2AE9FE00A39D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Al ADAN/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tensift.Al-ADAN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBC4FBCF1C2AE9FE00A39D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Al ADANTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tensift.Al-ADANTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Al ADAN.app/Al ADAN";
+			};
+			name = Debug;
+		};
+		BBC4FBD01C2AE9FE00A39D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Al ADANTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tensift.Al-ADANTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Al ADAN.app/Al ADAN";
+			};
+			name = Release;
+		};
+		BBC4FBD21C2AE9FE00A39D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Al ADANUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tensift.Al-ADANUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Al ADAN";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BBC4FBD31C2AE9FE00A39D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Al ADANUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tensift.Al-ADANUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Al ADAN";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBC4FB9E1C2AE9FE00A39D5F /* Build configuration list for PBXProject "Al ADAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC4FBC91C2AE9FE00A39D5F /* Debug */,
+				BBC4FBCA1C2AE9FE00A39D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC4FBCB1C2AE9FE00A39D5F /* Build configuration list for PBXNativeTarget "Al ADAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC4FBCC1C2AE9FE00A39D5F /* Debug */,
+				BBC4FBCD1C2AE9FE00A39D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBC4FBCE1C2AE9FE00A39D5F /* Build configuration list for PBXNativeTarget "Al ADANTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC4FBCF1C2AE9FE00A39D5F /* Debug */,
+				BBC4FBD01C2AE9FE00A39D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBC4FBD11C2AE9FE00A39D5F /* Build configuration list for PBXNativeTarget "Al ADANUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC4FBD21C2AE9FE00A39D5F /* Debug */,
+				BBC4FBD31C2AE9FE00A39D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBC4FB9B1C2AE9FE00A39D5F /* Project object */;
+}
