@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "Choose your Adhan"; ObjectID = "2Bc-DZ-yhG"; */
+"2Bc-DZ-yhG.text" = "Choose your Adhan";
+
+/* Class = "UILabel"; text = "0 min"; ObjectID = "3KG-0c-vxo"; */
+"3KG-0c-vxo.text" = "0 min";
+
+/* Class = "UILabel"; text = "City :"; ObjectID = "5Gw-Sq-O3Q"; */
+"5Gw-Sq-O3Q.text" = "City :";
+
+/* Class = "UILabel"; text = "05:30:00"; ObjectID = "9WR-iB-SJM"; */
+"9WR-iB-SJM.text" = "05:30:00";
+
+/* Class = "UITabBarItem"; title = "Salati"; ObjectID = "Kxd-VW-Pzj"; */
+"Kxd-VW-Pzj.title" = "Salati";
+
+/* Class = "UILabel"; text = "Asobh"; ObjectID = "LgJ-59-x6c"; */
+"LgJ-59-x6c.text" = "Asobh";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "RlK-bH-ufG"; */
+"RlK-bH-ufG.title" = "Settings";
+
+/* Class = "UILabel"; text = "Enable athan voice :"; ObjectID = "W7K-Gf-96J"; */
+"W7K-Gf-96J.text" = "Enable athan voice :";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "b00-dj-mSL"; */
+"b00-dj-mSL.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gfx-dA-ziw"; */
+"gfx-dA-ziw.text" = "Label";
+
+/* Class = "UILabel"; text = "Casablanca"; ObjectID = "jCb-KL-E7T"; */
+"jCb-KL-E7T.text" = "Casablanca";
+
+/* Class = "UILabel"; text = "adan2"; ObjectID = "k8y-bE-DbV"; */
+"k8y-bE-DbV.text" = "adan2";
+
+/* Class = "UIButton"; normalTitle = "Confirmer"; ObjectID = "mbS-ZJ-k0f"; */
+"mbS-ZJ-k0f.normalTitle" = "Confirmer";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pmB-Wk-Hno"; */
+"pmB-Wk-Hno.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "t5d-rq-tV5"; */
+"t5d-rq-tV5.normalTitle" = "X";
+
+/* Class = "UILabel"; text = "Athan voices :"; ObjectID = "udl-Ik-Upz"; */
+"udl-Ik-Upz.text" = "Athan voices :";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vhx-3I-cjX"; */
+"vhx-3I-cjX.text" = "Label";
+
+/* Class = "UILabel"; text = "Notification Time"; ObjectID = "y44-Je-4L3"; */
+"y44-Je-4L3.text" = "Notification Time";
