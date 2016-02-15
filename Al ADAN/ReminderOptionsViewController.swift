@@ -46,7 +46,7 @@ class ReminderOptionsViewController: UIViewController {
         
         setDefault.setObject(encodeData, forKey: "reminders")
         setDefault.synchronize()
-        self.dismissViewControllerAnimated(false, completion: nil)
+        self.dismissViewControllerAnimated(true, completion: nil)
         
         delegate?.updateTableView()
     }
