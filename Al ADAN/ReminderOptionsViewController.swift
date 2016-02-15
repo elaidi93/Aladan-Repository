@@ -30,7 +30,7 @@ class ReminderOptionsViewController: UIViewController {
         }else{
             
             reminders = [Reminder]()
-            
+            print("git test changing")
         }
         
     }
