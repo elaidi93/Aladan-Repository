@@ -7,13 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		227695A5FA2919DA9004B073 /* libPods-Al ADANUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2C23EDB2C88DFDAF58596B /* libPods-Al ADANUITests.a */; };
+		657FC5FFEC793B42399B79EA /* libPods-Al ADANTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17958597957549C22ECC1200 /* libPods-Al ADANTests.a */; };
+		BB085EAD1C6357E4008981E5 /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB085EAC1C6357E4008981E5 /* Reminders.swift */; };
+		BB085EB11C6358CA008981E5 /* ReminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB085EB01C6358CA008981E5 /* ReminderTableViewController.swift */; };
+		BB085EB31C636292008981E5 /* ReminderOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB085EB21C636292008981E5 /* ReminderOptionsViewController.swift */; };
+		BB085EB71C64F52E008981E5 /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB085EB61C64F52E008981E5 /* ReminderTableViewCell.swift */; };
+		BB5212A21C45121F00E24D73 /* ShowPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5212A11C45121F00E24D73 /* ShowPickerViewController.swift */; };
+		BB5212AA1C47F60700E24D73 /* al fasy adhan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5212A31C47F60700E24D73 /* al fasy adhan.mp3 */; };
+		BB5212AB1C47F60700E24D73 /* Masjid Aqsa adhan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5212A41C47F60700E24D73 /* Masjid Aqsa adhan.mp3 */; };
+		BB5212AC1C47F60700E24D73 /* Turkey adhan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5212A51C47F60700E24D73 /* Turkey adhan.mp3 */; };
+		BB5212AD1C47F60700E24D73 /* mecca adhan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5212A61C47F60700E24D73 /* mecca adhan.mp3 */; };
+		BB5212AE1C47F60700E24D73 /* malaysia adhan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5212A71C47F60700E24D73 /* malaysia adhan.mp3 */; };
+		BB5212AF1C47F60700E24D73 /* pakistan adhan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5212A81C47F60700E24D73 /* pakistan adhan.mp3 */; };
+		BB5212B01C47F60700E24D73 /* indonesia athan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5212A91C47F60700E24D73 /* indonesia athan.mp3 */; };
+		BB5A9DE31C317CCD00C11256 /* PrayerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5A9DE21C317CCD00C11256 /* PrayerInfoViewController.swift */; };
+		BB605C9D1C57EAA800B00DE3 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = BB605C9F1C57EAA800B00DE3 /* default.png */; };
+		BB608BAD1C4E5A1B007601C0 /* PrayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB608BAC1C4E5A1B007601C0 /* PrayerManager.swift */; };
+		BB608BB01C4FA7BA007601C0 /* duaa.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB608BAF1C4FA7BA007601C0 /* duaa.txt */; };
+		BB6A6EAB1C5F67D900023D72 /* JsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = BB6A6EAA1C5F67D800023D72 /* JsonFile.json */; };
+		BB9497C11C6B4DBF003CE6F3 /* MZBlurEffectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497A81C6B4DBF003CE6F3 /* MZBlurEffectAdapter.m */; };
+		BB9497C21C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497AA1C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationController.m */; };
+		BB9497C31C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationControllerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497AC1C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationControllerAnimator.m */; };
+		BB9497C41C6B4DBF003CE6F3 /* MZFormSheetPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497B01C6B4DBF003CE6F3 /* MZFormSheetPresentationController.m */; };
+		BB9497C51C6B4DBF003CE6F3 /* MZFormSheetPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497B21C6B4DBF003CE6F3 /* MZFormSheetPresentationViewController.m */; };
+		BB9497C61C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497B51C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerAnimator.m */; };
+		BB9497C71C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerInteractiveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497B71C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerInteractiveAnimator.m */; };
+		BB9497C81C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497BA1C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerSegue.m */; };
+		BB9497C91C6B4DBF003CE6F3 /* MZMethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497BC1C6B4DBF003CE6F3 /* MZMethodSwizzler.m */; };
+		BB9497CA1C6B4DBF003CE6F3 /* MZTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497BE1C6B4DBF003CE6F3 /* MZTransition.m */; };
+		BB9497CB1C6B4DBF003CE6F3 /* UIViewController+TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497C01C6B4DBF003CE6F3 /* UIViewController+TargetViewController.m */; };
+		BB9497D11C6E36D3003CE6F3 /* MZBlurEffectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497A81C6B4DBF003CE6F3 /* MZBlurEffectAdapter.m */; };
+		BB9497D21C6E36D3003CE6F3 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFCC0331C352E5300445FDC /* SettingTableViewController.swift */; };
+		BB9497D31C6E36D3003CE6F3 /* MZFormSheetPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497B21C6B4DBF003CE6F3 /* MZFormSheetPresentationViewController.m */; };
+		BB9497D41C6E36D3003CE6F3 /* MZMethodSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497BC1C6B4DBF003CE6F3 /* MZMethodSwizzler.m */; };
+		BB9497D51C6E36D3003CE6F3 /* MZFormSheetPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497B01C6B4DBF003CE6F3 /* MZFormSheetPresentationController.m */; };
+		BB9497D61C6E36D3003CE6F3 /* MZFormSheetPresentationViewControllerInteractiveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497B71C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerInteractiveAnimator.m */; };
+		BB9497D71C6E36D3003CE6F3 /* PrayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4FBD41C2AF35500A39D5F /* PrayerTableViewController.swift */; };
+		BB9497D81C6E36D3003CE6F3 /* MZTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497BE1C6B4DBF003CE6F3 /* MZTransition.m */; };
+		BB9497D91C6E36D3003CE6F3 /* MZFormSheetContentSizingNavigationControllerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497AC1C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationControllerAnimator.m */; };
+		BB9497DA1C6E36D3003CE6F3 /* PrayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4FBD61C2AF58A00A39D5F /* PrayerTableViewCell.swift */; };
+		BB9497DB1C6E36D3003CE6F3 /* ReminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB085EB01C6358CA008981E5 /* ReminderTableViewController.swift */; };
+		BB9497DC1C6E36D3003CE6F3 /* PrayerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4FBD81C2AFBFA00A39D5F /* PrayerClass.swift */; };
+		BB9497DD1C6E36D3003CE6F3 /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB085EAC1C6357E4008981E5 /* Reminders.swift */; };
+		BB9497DE1C6E36D3003CE6F3 /* UIViewController+TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497C01C6B4DBF003CE6F3 /* UIViewController+TargetViewController.m */; };
+		BB9497DF1C6E36D3003CE6F3 /* ReminderOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB085EB21C636292008981E5 /* ReminderOptionsViewController.swift */; };
+		BB9497E01C6E36D3003CE6F3 /* MZFormSheetContentSizingNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497AA1C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationController.m */; };
+		BB9497E11C6E36D3003CE6F3 /* MZFormSheetPresentationViewControllerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497B51C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerAnimator.m */; };
+		BB9497E21C6E36D3003CE6F3 /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB085EB61C64F52E008981E5 /* ReminderTableViewCell.swift */; };
+		BB9497E31C6E36D3003CE6F3 /* PrayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB608BAC1C4E5A1B007601C0 /* PrayerManager.swift */; };
+		BB9497E41C6E36D3003CE6F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4FBA61C2AE9FE00A39D5F /* AppDelegate.swift */; };
+		BB9497E51C6E36D3003CE6F3 /* ShowPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5212A11C45121F00E24D73 /* ShowPickerViewController.swift */; };
+		BB9497E61C6E36D3003CE6F3 /* PrayerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5A9DE21C317CCD00C11256 /* PrayerInfoViewController.swift */; };
+		BB9497E71C6E36D3003CE6F3 /* MZFormSheetPresentationViewControllerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497BA1C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerSegue.m */; };
+		BB9497E91C6E36D3003CE6F3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFC642D1C3E6D7600E61D16 /* AVFoundation.framework */; };
+		BB9497EA1C6E36D3003CE6F3 /* libPods-Al ADAN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6626A9917EDB0EE4600718C5 /* libPods-Al ADAN.a */; };
+		BB9497EC1C6E36D3003CE6F3 /* adan5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBFC64301C3E86D500E61D16 /* adan5.mp3 */; };
+		BB9497ED1C6E36D3003CE6F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC4FBAF1C2AE9FE00A39D5F /* LaunchScreen.storyboard */; };
+		BB9497EE1C6E36D3003CE6F3 /* adan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBFC64351C3E86D500E61D16 /* adan.mp3 */; };
+		BB9497EF1C6E36D3003CE6F3 /* pakistan adhan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5212A81C47F60700E24D73 /* pakistan adhan.mp3 */; };
+		BB9497F01C6E36D3003CE6F3 /* mecca adhan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5212A61C47F60700E24D73 /* mecca adhan.mp3 */; };
+		BB9497F11C6E36D3003CE6F3 /* al fasy adhan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5212A31C47F60700E24D73 /* al fasy adhan.mp3 */; };
+		BB9497F21C6E36D3003CE6F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC4FBAD1C2AE9FE00A39D5F /* Assets.xcassets */; };
+		BB9497F31C6E36D3003CE6F3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBDA9DE71C59250600C2AB4F /* Info.plist */; };
+		BB9497F41C6E36D3003CE6F3 /* indonesia athan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5212A91C47F60700E24D73 /* indonesia athan.mp3 */; };
+		BB9497F51C6E36D3003CE6F3 /* adan3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBFC64331C3E86D500E61D16 /* adan3.mp3 */; };
+		BB9497F61C6E36D3003CE6F3 /* malaysia adhan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5212A71C47F60700E24D73 /* malaysia adhan.mp3 */; };
+		BB9497F71C6E36D3003CE6F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBA73CD31C523CD20095C687 /* InfoPlist.strings */; };
+		BB9497F81C6E36D3003CE6F3 /* duaa.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB608BAF1C4FA7BA007601C0 /* duaa.txt */; };
+		BB9497F91C6E36D3003CE6F3 /* Turkey adhan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5212A51C47F60700E24D73 /* Turkey adhan.mp3 */; };
+		BB9497FA1C6E36D3003CE6F3 /* Masjid Aqsa adhan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5212A41C47F60700E24D73 /* Masjid Aqsa adhan.mp3 */; };
+		BB9497FB1C6E36D3003CE6F3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBA73CCE1C523CD10095C687 /* Localizable.strings */; };
+		BB9497FC1C6E36D3003CE6F3 /* adan1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBFC64341C3E86D500E61D16 /* adan1.mp3 */; };
+		BB9497FD1C6E36D3003CE6F3 /* adan4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBFC64311C3E86D500E61D16 /* adan4.mp3 */; };
+		BB9497FF1C6E36D3003CE6F3 /* adan2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBFC64321C3E86D500E61D16 /* adan2.mp3 */; };
+		BB9498001C6E36D3003CE6F3 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = BB605C9F1C57EAA800B00DE3 /* default.png */; };
+		BB9498011C6E36D3003CE6F3 /* JsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = BB6A6EAA1C5F67D800023D72 /* JsonFile.json */; };
+		BBA73CCC1C523CD10095C687 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBA73CCE1C523CD10095C687 /* Localizable.strings */; };
+		BBA73CD11C523CD20095C687 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBA73CD31C523CD20095C687 /* InfoPlist.strings */; };
+		BBA73CD61C523CD30095C687 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBA73CD81C523CD30095C687 /* InfoPlist.strings */; };
+		BBA73CDB1C523CD30095C687 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBA73CDD1C523CD30095C687 /* InfoPlist.strings */; };
 		BBC4FBA71C2AE9FE00A39D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4FBA61C2AE9FE00A39D5F /* AppDelegate.swift */; };
-		BBC4FBA91C2AE9FE00A39D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4FBA81C2AE9FE00A39D5F /* ViewController.swift */; };
 		BBC4FBAC1C2AE9FE00A39D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC4FBAA1C2AE9FE00A39D5F /* Main.storyboard */; };
 		BBC4FBAE1C2AE9FE00A39D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC4FBAD1C2AE9FE00A39D5F /* Assets.xcassets */; };
 		BBC4FBB11C2AE9FE00A39D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC4FBAF1C2AE9FE00A39D5F /* LaunchScreen.storyboard */; };
 		BBC4FBBC1C2AE9FE00A39D5F /* Al_ADANTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4FBBB1C2AE9FE00A39D5F /* Al_ADANTests.swift */; };
 		BBC4FBC71C2AE9FE00A39D5F /* Al_ADANUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4FBC61C2AE9FE00A39D5F /* Al_ADANUITests.swift */; };
+		BBC4FBD51C2AF35500A39D5F /* PrayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4FBD41C2AF35500A39D5F /* PrayerTableViewController.swift */; };
+		BBC4FBD71C2AF58A00A39D5F /* PrayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4FBD61C2AF58A00A39D5F /* PrayerTableViewCell.swift */; };
+		BBC4FBD91C2AFBFA00A39D5F /* PrayerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC4FBD81C2AFBFA00A39D5F /* PrayerClass.swift */; };
+		BBDA9DE81C59250700C2AB4F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBDA9DE71C59250600C2AB4F /* Info.plist */; };
+		BBFC642E1C3E6D7600E61D16 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFC642D1C3E6D7600E61D16 /* AVFoundation.framework */; };
+		BBFC64361C3E86D500E61D16 /* adan5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBFC64301C3E86D500E61D16 /* adan5.mp3 */; };
+		BBFC64371C3E86D500E61D16 /* adan4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBFC64311C3E86D500E61D16 /* adan4.mp3 */; };
+		BBFC64381C3E86D500E61D16 /* adan2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBFC64321C3E86D500E61D16 /* adan2.mp3 */; };
+		BBFC64391C3E86D500E61D16 /* adan3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBFC64331C3E86D500E61D16 /* adan3.mp3 */; };
+		BBFC643A1C3E86D500E61D16 /* adan1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBFC64341C3E86D500E61D16 /* adan1.mp3 */; };
+		BBFC643B1C3E86D500E61D16 /* adan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BBFC64351C3E86D500E61D16 /* adan.mp3 */; };
+		BBFCC0341C352E5300445FDC /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFCC0331C352E5300445FDC /* SettingTableViewController.swift */; };
+		C1CC561268800EBE0DE2DC3F /* libPods-Al ADAN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6626A9917EDB0EE4600718C5 /* libPods-Al ADAN.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,26 +126,109 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0499876BC35907EB48187242 /* Pods-Al ADANTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Al ADANTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Al ADANTests/Pods-Al ADANTests.debug.xcconfig"; sourceTree = "<group>"; };
+		17958597957549C22ECC1200 /* libPods-Al ADANTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Al ADANTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18841B00FC0776FB87BD36D4 /* Pods-Al ADANUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Al ADANUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Al ADANUITests/Pods-Al ADANUITests.release.xcconfig"; sourceTree = "<group>"; };
+		270D1A5D9A9541D9E6DA7AF3 /* Pods-Al ADANTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Al ADANTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Al ADANTests/Pods-Al ADANTests.release.xcconfig"; sourceTree = "<group>"; };
+		6626A9917EDB0EE4600718C5 /* libPods-Al ADAN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Al ADAN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF483B14F374D5DE0DD9984 /* Pods-Al ADANUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Al ADANUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Al ADANUITests/Pods-Al ADANUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB2C23EDB2C88DFDAF58596B /* libPods-Al ADANUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Al ADANUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB085EAC1C6357E4008981E5 /* Reminders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
+		BB085EB01C6358CA008981E5 /* ReminderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderTableViewController.swift; sourceTree = "<group>"; };
+		BB085EB21C636292008981E5 /* ReminderOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderOptionsViewController.swift; sourceTree = "<group>"; };
+		BB085EB61C64F52E008981E5 /* ReminderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderTableViewCell.swift; sourceTree = "<group>"; };
+		BB5212A11C45121F00E24D73 /* ShowPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowPickerViewController.swift; sourceTree = "<group>"; };
+		BB5212A31C47F60700E24D73 /* al fasy adhan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "al fasy adhan.mp3"; sourceTree = "<group>"; };
+		BB5212A41C47F60700E24D73 /* Masjid Aqsa adhan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Masjid Aqsa adhan.mp3"; sourceTree = "<group>"; };
+		BB5212A51C47F60700E24D73 /* Turkey adhan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Turkey adhan.mp3"; sourceTree = "<group>"; };
+		BB5212A61C47F60700E24D73 /* mecca adhan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mecca adhan.mp3"; sourceTree = "<group>"; };
+		BB5212A71C47F60700E24D73 /* malaysia adhan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "malaysia adhan.mp3"; sourceTree = "<group>"; };
+		BB5212A81C47F60700E24D73 /* pakistan adhan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pakistan adhan.mp3"; sourceTree = "<group>"; };
+		BB5212A91C47F60700E24D73 /* indonesia athan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "indonesia athan.mp3"; sourceTree = "<group>"; };
+		BB5A9DE21C317CCD00C11256 /* PrayerInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerInfoViewController.swift; sourceTree = "<group>"; };
+		BB605C991C57D88C00B00DE3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		BB605C9E1C57EAA800B00DE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/default.png; sourceTree = "<group>"; };
+		BB605CA01C57EAAA00B00DE3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fr; path = fr.lproj/default.png; sourceTree = "<group>"; };
+		BB608BAC1C4E5A1B007601C0 /* PrayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerManager.swift; sourceTree = "<group>"; };
+		BB608BAF1C4FA7BA007601C0 /* duaa.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = duaa.txt; sourceTree = "<group>"; };
+		BB6A6EAA1C5F67D800023D72 /* JsonFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JsonFile.json; path = ../JsonFile.json; sourceTree = "<group>"; };
+		BB9497A71C6B4DBF003CE6F3 /* MZBlurEffectAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZBlurEffectAdapter.h; sourceTree = "<group>"; };
+		BB9497A81C6B4DBF003CE6F3 /* MZBlurEffectAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZBlurEffectAdapter.m; sourceTree = "<group>"; };
+		BB9497A91C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetContentSizingNavigationController.h; sourceTree = "<group>"; };
+		BB9497AA1C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetContentSizingNavigationController.m; sourceTree = "<group>"; };
+		BB9497AB1C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationControllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetContentSizingNavigationControllerAnimator.h; sourceTree = "<group>"; };
+		BB9497AC1C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationControllerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetContentSizingNavigationControllerAnimator.m; sourceTree = "<group>"; };
+		BB9497AD1C6B4DBF003CE6F3 /* MZFormSheetPresentationContentSizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationContentSizing.h; sourceTree = "<group>"; };
+		BB9497AE1C6B4DBF003CE6F3 /* MZFormSheetPresentationController Swift Example-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MZFormSheetPresentationController Swift Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB9497AF1C6B4DBF003CE6F3 /* MZFormSheetPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationController.h; sourceTree = "<group>"; };
+		BB9497B01C6B4DBF003CE6F3 /* MZFormSheetPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationController.m; sourceTree = "<group>"; };
+		BB9497B11C6B4DBF003CE6F3 /* MZFormSheetPresentationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewController.h; sourceTree = "<group>"; };
+		BB9497B21C6B4DBF003CE6F3 /* MZFormSheetPresentationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationViewController.m; sourceTree = "<group>"; };
+		BB9497B31C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerAnimatedTransitioning.h; sourceTree = "<group>"; };
+		BB9497B41C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerAnimator.h; sourceTree = "<group>"; };
+		BB9497B51C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationViewControllerAnimator.m; sourceTree = "<group>"; };
+		BB9497B61C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerInteractiveAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerInteractiveAnimator.h; sourceTree = "<group>"; };
+		BB9497B71C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerInteractiveAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationViewControllerInteractiveAnimator.m; sourceTree = "<group>"; };
+		BB9497B81C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerInteractiveTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerInteractiveTransitioning.h; sourceTree = "<group>"; };
+		BB9497B91C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetPresentationViewControllerSegue.h; sourceTree = "<group>"; };
+		BB9497BA1C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZFormSheetPresentationViewControllerSegue.m; sourceTree = "<group>"; };
+		BB9497BB1C6B4DBF003CE6F3 /* MZMethodSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMethodSwizzler.h; sourceTree = "<group>"; };
+		BB9497BC1C6B4DBF003CE6F3 /* MZMethodSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMethodSwizzler.m; sourceTree = "<group>"; };
+		BB9497BD1C6B4DBF003CE6F3 /* MZTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTransition.h; sourceTree = "<group>"; };
+		BB9497BE1C6B4DBF003CE6F3 /* MZTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTransition.m; sourceTree = "<group>"; };
+		BB9497BF1C6B4DBF003CE6F3 /* UIViewController+TargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TargetViewController.h"; sourceTree = "<group>"; };
+		BB9497C01C6B4DBF003CE6F3 /* UIViewController+TargetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TargetViewController.m"; sourceTree = "<group>"; };
+		BB9497CD1C6B4F20003CE6F3 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		BB9498071C6E36D3003CE6F3 /* Al ADAN Ipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Al ADAN Ipad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9498081C6E36D8003CE6F3 /* Al ADAN copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Al ADAN copy-Info.plist"; path = "/Users/hamza/Desktop/hamza/test/Al ADAN/Al ADAN copy-Info.plist"; sourceTree = "<absolute>"; };
+		BBA73CC81C5141CD0095C687 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		BBA73CCD1C523CD10095C687 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BBA73CD21C523CD20095C687 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBA73CD71C523CD30095C687 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBA73CDC1C523CD30095C687 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BBC4FBA31C2AE9FE00A39D5F /* Al ADAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Al ADAN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC4FBA61C2AE9FE00A39D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BBC4FBA81C2AE9FE00A39D5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BBC4FBAB1C2AE9FE00A39D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBC4FBAD1C2AE9FE00A39D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBC4FBB01C2AE9FE00A39D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BBC4FBB21C2AE9FE00A39D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBC4FBB71C2AE9FE00A39D5F /* Al ADANTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Al ADANTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC4FBBB1C2AE9FE00A39D5F /* Al_ADANTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Al_ADANTests.swift; sourceTree = "<group>"; };
 		BBC4FBBD1C2AE9FE00A39D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBC4FBC21C2AE9FE00A39D5F /* Al ADANUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Al ADANUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC4FBC61C2AE9FE00A39D5F /* Al_ADANUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Al_ADANUITests.swift; sourceTree = "<group>"; };
 		BBC4FBC81C2AE9FE00A39D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC4FBD41C2AF35500A39D5F /* PrayerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerTableViewController.swift; sourceTree = "<group>"; };
+		BBC4FBD61C2AF58A00A39D5F /* PrayerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerTableViewCell.swift; sourceTree = "<group>"; };
+		BBC4FBD81C2AFBFA00A39D5F /* PrayerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerClass.swift; sourceTree = "<group>"; };
+		BBDA9DE71C59250600C2AB4F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		BBFC642D1C3E6D7600E61D16 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BBFC64301C3E86D500E61D16 /* adan5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adan5.mp3; sourceTree = "<group>"; };
+		BBFC64311C3E86D500E61D16 /* adan4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adan4.mp3; sourceTree = "<group>"; };
+		BBFC64321C3E86D500E61D16 /* adan2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adan2.mp3; sourceTree = "<group>"; };
+		BBFC64331C3E86D500E61D16 /* adan3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adan3.mp3; sourceTree = "<group>"; };
+		BBFC64341C3E86D500E61D16 /* adan1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adan1.mp3; sourceTree = "<group>"; };
+		BBFC64351C3E86D500E61D16 /* adan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adan.mp3; sourceTree = "<group>"; };
+		BBFCC0331C352E5300445FDC /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		CDA63A0769F227E3C02D7C0C /* Pods-Al ADAN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Al ADAN.release.xcconfig"; path = "Pods/Target Support Files/Pods-Al ADAN/Pods-Al ADAN.release.xcconfig"; sourceTree = "<group>"; };
+		F62EBC359EF292A9183679CB /* Pods-Al ADAN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Al ADAN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Al ADAN/Pods-Al ADAN.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BB9497E81C6E36D3003CE6F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9497E91C6E36D3003CE6F3 /* AVFoundation.framework in Frameworks */,
+				BB9497EA1C6E36D3003CE6F3 /* libPods-Al ADAN.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBC4FBA01C2AE9FE00A39D5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBFC642E1C3E6D7600E61D16 /* AVFoundation.framework in Frameworks */,
+				C1CC561268800EBE0DE2DC3F /* libPods-Al ADAN.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +236,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				657FC5FFEC793B42399B79EA /* libPods-Al ADANTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +244,90 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227695A5FA2919DA9004B073 /* libPods-Al ADANUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79F4277286B871537244E698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6626A9917EDB0EE4600718C5 /* libPods-Al ADAN.a */,
+				17958597957549C22ECC1200 /* libPods-Al ADANTests.a */,
+				AB2C23EDB2C88DFDAF58596B /* libPods-Al ADANUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D69684C283876D63400A3FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F62EBC359EF292A9183679CB /* Pods-Al ADAN.debug.xcconfig */,
+				CDA63A0769F227E3C02D7C0C /* Pods-Al ADAN.release.xcconfig */,
+				0499876BC35907EB48187242 /* Pods-Al ADANTests.debug.xcconfig */,
+				270D1A5D9A9541D9E6DA7AF3 /* Pods-Al ADANTests.release.xcconfig */,
+				8EF483B14F374D5DE0DD9984 /* Pods-Al ADANUITests.debug.xcconfig */,
+				18841B00FC0776FB87BD36D4 /* Pods-Al ADANUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB608BAE1C4F8C86007601C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB6A6EAA1C5F67D800023D72 /* JsonFile.json */,
+				BB608BAF1C4FA7BA007601C0 /* duaa.txt */,
+				BB608BAC1C4E5A1B007601C0 /* PrayerManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BB9497A61C6B4DBF003CE6F3 /* MZFormSheetPresentationController */ = {
+			isa = PBXGroup;
+			children = (
+				BB9497A71C6B4DBF003CE6F3 /* MZBlurEffectAdapter.h */,
+				BB9497A81C6B4DBF003CE6F3 /* MZBlurEffectAdapter.m */,
+				BB9497A91C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationController.h */,
+				BB9497AA1C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationController.m */,
+				BB9497AB1C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationControllerAnimator.h */,
+				BB9497AC1C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationControllerAnimator.m */,
+				BB9497AD1C6B4DBF003CE6F3 /* MZFormSheetPresentationContentSizing.h */,
+				BB9497AE1C6B4DBF003CE6F3 /* MZFormSheetPresentationController Swift Example-Bridging-Header.h */,
+				BB9497AF1C6B4DBF003CE6F3 /* MZFormSheetPresentationController.h */,
+				BB9497B01C6B4DBF003CE6F3 /* MZFormSheetPresentationController.m */,
+				BB9497B11C6B4DBF003CE6F3 /* MZFormSheetPresentationViewController.h */,
+				BB9497B21C6B4DBF003CE6F3 /* MZFormSheetPresentationViewController.m */,
+				BB9497B31C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerAnimatedTransitioning.h */,
+				BB9497B41C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerAnimator.h */,
+				BB9497B51C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerAnimator.m */,
+				BB9497B61C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerInteractiveAnimator.h */,
+				BB9497B71C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerInteractiveAnimator.m */,
+				BB9497B81C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerInteractiveTransitioning.h */,
+				BB9497B91C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerSegue.h */,
+				BB9497BA1C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerSegue.m */,
+				BB9497BB1C6B4DBF003CE6F3 /* MZMethodSwizzler.h */,
+				BB9497BC1C6B4DBF003CE6F3 /* MZMethodSwizzler.m */,
+				BB9497BD1C6B4DBF003CE6F3 /* MZTransition.h */,
+				BB9497BE1C6B4DBF003CE6F3 /* MZTransition.m */,
+				BB9497BF1C6B4DBF003CE6F3 /* UIViewController+TargetViewController.h */,
+				BB9497C01C6B4DBF003CE6F3 /* UIViewController+TargetViewController.m */,
+			);
+			path = MZFormSheetPresentationController;
+			sourceTree = "<group>";
+		};
 		BBC4FB9A1C2AE9FE00A39D5F = {
 			isa = PBXGroup;
 			children = (
+				BBFC642D1C3E6D7600E61D16 /* AVFoundation.framework */,
 				BBC4FBA51C2AE9FE00A39D5F /* Al ADAN */,
 				BBC4FBBA1C2AE9FE00A39D5F /* Al ADANTests */,
 				BBC4FBC51C2AE9FE00A39D5F /* Al ADANUITests */,
 				BBC4FBA41C2AE9FE00A39D5F /* Products */,
+				7D69684C283876D63400A3FE /* Pods */,
+				79F4277286B871537244E698 /* Frameworks */,
+				BB9498081C6E36D8003CE6F3 /* Al ADAN copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +337,7 @@
 				BBC4FBA31C2AE9FE00A39D5F /* Al ADAN.app */,
 				BBC4FBB71C2AE9FE00A39D5F /* Al ADANTests.xctest */,
 				BBC4FBC21C2AE9FE00A39D5F /* Al ADANUITests.xctest */,
+				BB9498071C6E36D3003CE6F3 /* Al ADAN Ipad.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +345,28 @@
 		BBC4FBA51C2AE9FE00A39D5F /* Al ADAN */ = {
 			isa = PBXGroup;
 			children = (
+				BB9497A61C6B4DBF003CE6F3 /* MZFormSheetPresentationController */,
+				BB605C9F1C57EAA800B00DE3 /* default.png */,
+				BBA73CD31C523CD20095C687 /* InfoPlist.strings */,
+				BBA73CCE1C523CD10095C687 /* Localizable.strings */,
+				BB608BAE1C4F8C86007601C0 /* Model */,
+				BBFC642F1C3E85D100E61D16 /* adan sounds */,
 				BBC4FBA61C2AE9FE00A39D5F /* AppDelegate.swift */,
-				BBC4FBA81C2AE9FE00A39D5F /* ViewController.swift */,
 				BBC4FBAA1C2AE9FE00A39D5F /* Main.storyboard */,
 				BBC4FBAD1C2AE9FE00A39D5F /* Assets.xcassets */,
+				BBDA9DE71C59250600C2AB4F /* Info.plist */,
 				BBC4FBAF1C2AE9FE00A39D5F /* LaunchScreen.storyboard */,
-				BBC4FBB21C2AE9FE00A39D5F /* Info.plist */,
+				BBC4FBD41C2AF35500A39D5F /* PrayerTableViewController.swift */,
+				BBC4FBD61C2AF58A00A39D5F /* PrayerTableViewCell.swift */,
+				BBC4FBD81C2AFBFA00A39D5F /* PrayerClass.swift */,
+				BB5A9DE21C317CCD00C11256 /* PrayerInfoViewController.swift */,
+				BBFCC0331C352E5300445FDC /* SettingTableViewController.swift */,
+				BB5212A11C45121F00E24D73 /* ShowPickerViewController.swift */,
+				BB085EAC1C6357E4008981E5 /* Reminders.swift */,
+				BB085EB01C6358CA008981E5 /* ReminderTableViewController.swift */,
+				BB085EB21C636292008981E5 /* ReminderOptionsViewController.swift */,
+				BB085EB61C64F52E008981E5 /* ReminderTableViewCell.swift */,
+				BB9497CD1C6B4F20003CE6F3 /* BridgingHeader.h */,
 			);
 			path = "Al ADAN";
 			sourceTree = "<group>";
@@ -110,6 +374,7 @@
 		BBC4FBBA1C2AE9FE00A39D5F /* Al ADANTests */ = {
 			isa = PBXGroup;
 			children = (
+				BBA73CDD1C523CD30095C687 /* InfoPlist.strings */,
 				BBC4FBBB1C2AE9FE00A39D5F /* Al_ADANTests.swift */,
 				BBC4FBBD1C2AE9FE00A39D5F /* Info.plist */,
 			);
@@ -119,22 +384,66 @@
 		BBC4FBC51C2AE9FE00A39D5F /* Al ADANUITests */ = {
 			isa = PBXGroup;
 			children = (
+				BBA73CD81C523CD30095C687 /* InfoPlist.strings */,
 				BBC4FBC61C2AE9FE00A39D5F /* Al_ADANUITests.swift */,
 				BBC4FBC81C2AE9FE00A39D5F /* Info.plist */,
 			);
 			path = "Al ADANUITests";
 			sourceTree = "<group>";
 		};
+		BBFC642F1C3E85D100E61D16 /* adan sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BB5212A31C47F60700E24D73 /* al fasy adhan.mp3 */,
+				BB5212A41C47F60700E24D73 /* Masjid Aqsa adhan.mp3 */,
+				BB5212A51C47F60700E24D73 /* Turkey adhan.mp3 */,
+				BB5212A61C47F60700E24D73 /* mecca adhan.mp3 */,
+				BB5212A71C47F60700E24D73 /* malaysia adhan.mp3 */,
+				BB5212A81C47F60700E24D73 /* pakistan adhan.mp3 */,
+				BB5212A91C47F60700E24D73 /* indonesia athan.mp3 */,
+				BBFC64341C3E86D500E61D16 /* adan1.mp3 */,
+				BBFC64331C3E86D500E61D16 /* adan3.mp3 */,
+				BBFC64351C3E86D500E61D16 /* adan.mp3 */,
+				BBFC64321C3E86D500E61D16 /* adan2.mp3 */,
+				BBFC64311C3E86D500E61D16 /* adan4.mp3 */,
+				BBFC64301C3E86D500E61D16 /* adan5.mp3 */,
+			);
+			name = "adan sounds";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BB9497CE1C6E36D3003CE6F3 /* Al ADAN Ipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9498041C6E36D3003CE6F3 /* Build configuration list for PBXNativeTarget "Al ADAN Ipad" */;
+			buildPhases = (
+				BB9497CF1C6E36D3003CE6F3 /* Check Pods Manifest.lock */,
+				BB9497D01C6E36D3003CE6F3 /* Sources */,
+				BB9497E81C6E36D3003CE6F3 /* Frameworks */,
+				BB9497EB1C6E36D3003CE6F3 /* Resources */,
+				BB9498021C6E36D3003CE6F3 /* Embed Pods Frameworks */,
+				BB9498031C6E36D3003CE6F3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Al ADAN Ipad";
+			productName = "Al ADAN";
+			productReference = BB9498071C6E36D3003CE6F3 /* Al ADAN Ipad.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BBC4FBA21C2AE9FE00A39D5F /* Al ADAN */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBC4FBCB1C2AE9FE00A39D5F /* Build configuration list for PBXNativeTarget "Al ADAN" */;
 			buildPhases = (
+				61B8C208DD9FBFE275F44CE7 /* Check Pods Manifest.lock */,
 				BBC4FB9F1C2AE9FE00A39D5F /* Sources */,
 				BBC4FBA01C2AE9FE00A39D5F /* Frameworks */,
 				BBC4FBA11C2AE9FE00A39D5F /* Resources */,
+				4225E7B64FDE13645ABBE298 /* Embed Pods Frameworks */,
+				19203FB35A3F92BC61F20546 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +458,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBC4FBCE1C2AE9FE00A39D5F /* Build configuration list for PBXNativeTarget "Al ADANTests" */;
 			buildPhases = (
+				56DD885E594B42055E608404 /* Check Pods Manifest.lock */,
 				BBC4FBB31C2AE9FE00A39D5F /* Sources */,
 				BBC4FBB41C2AE9FE00A39D5F /* Frameworks */,
 				BBC4FBB51C2AE9FE00A39D5F /* Resources */,
+				2DECA15C1ADDA236C9AE01B3 /* Embed Pods Frameworks */,
+				FC5460CE1CA4F57418F9D496 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +479,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBC4FBD11C2AE9FE00A39D5F /* Build configuration list for PBXNativeTarget "Al ADANUITests" */;
 			buildPhases = (
+				9BA9DB75011DCB1D1AC59276 /* Check Pods Manifest.lock */,
 				BBC4FBBE1C2AE9FE00A39D5F /* Sources */,
 				BBC4FBBF1C2AE9FE00A39D5F /* Frameworks */,
 				BBC4FBC01C2AE9FE00A39D5F /* Resources */,
+				A67D0E1F3AFF96F962CC79A2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,6 +525,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = BBC4FB9A1C2AE9FE00A39D5F;
 			productRefGroup = BBC4FBA41C2AE9FE00A39D5F /* Products */;
@@ -220,18 +535,66 @@
 				BBC4FBA21C2AE9FE00A39D5F /* Al ADAN */,
 				BBC4FBB61C2AE9FE00A39D5F /* Al ADANTests */,
 				BBC4FBC11C2AE9FE00A39D5F /* Al ADANUITests */,
+				BB9497CE1C6E36D3003CE6F3 /* Al ADAN Ipad */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BB9497EB1C6E36D3003CE6F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9497EC1C6E36D3003CE6F3 /* adan5.mp3 in Resources */,
+				BB9497ED1C6E36D3003CE6F3 /* LaunchScreen.storyboard in Resources */,
+				BB9497EE1C6E36D3003CE6F3 /* adan.mp3 in Resources */,
+				BB9497EF1C6E36D3003CE6F3 /* pakistan adhan.mp3 in Resources */,
+				BB9497F01C6E36D3003CE6F3 /* mecca adhan.mp3 in Resources */,
+				BB9497F11C6E36D3003CE6F3 /* al fasy adhan.mp3 in Resources */,
+				BB9497F21C6E36D3003CE6F3 /* Assets.xcassets in Resources */,
+				BB9497F31C6E36D3003CE6F3 /* Info.plist in Resources */,
+				BB9497F41C6E36D3003CE6F3 /* indonesia athan.mp3 in Resources */,
+				BB9497F51C6E36D3003CE6F3 /* adan3.mp3 in Resources */,
+				BB9497F61C6E36D3003CE6F3 /* malaysia adhan.mp3 in Resources */,
+				BB9497F71C6E36D3003CE6F3 /* InfoPlist.strings in Resources */,
+				BB9497F81C6E36D3003CE6F3 /* duaa.txt in Resources */,
+				BB9497F91C6E36D3003CE6F3 /* Turkey adhan.mp3 in Resources */,
+				BB9497FA1C6E36D3003CE6F3 /* Masjid Aqsa adhan.mp3 in Resources */,
+				BB9497FB1C6E36D3003CE6F3 /* Localizable.strings in Resources */,
+				BB9497FC1C6E36D3003CE6F3 /* adan1.mp3 in Resources */,
+				BB9497FD1C6E36D3003CE6F3 /* adan4.mp3 in Resources */,
+				BB9497FF1C6E36D3003CE6F3 /* adan2.mp3 in Resources */,
+				BB9498001C6E36D3003CE6F3 /* default.png in Resources */,
+				BB9498011C6E36D3003CE6F3 /* JsonFile.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBC4FBA11C2AE9FE00A39D5F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBFC64361C3E86D500E61D16 /* adan5.mp3 in Resources */,
 				BBC4FBB11C2AE9FE00A39D5F /* LaunchScreen.storyboard in Resources */,
+				BBFC643B1C3E86D500E61D16 /* adan.mp3 in Resources */,
+				BB5212AF1C47F60700E24D73 /* pakistan adhan.mp3 in Resources */,
+				BB5212AD1C47F60700E24D73 /* mecca adhan.mp3 in Resources */,
+				BB5212AA1C47F60700E24D73 /* al fasy adhan.mp3 in Resources */,
 				BBC4FBAE1C2AE9FE00A39D5F /* Assets.xcassets in Resources */,
+				BBDA9DE81C59250700C2AB4F /* Info.plist in Resources */,
+				BB5212B01C47F60700E24D73 /* indonesia athan.mp3 in Resources */,
+				BBFC64391C3E86D500E61D16 /* adan3.mp3 in Resources */,
+				BB5212AE1C47F60700E24D73 /* malaysia adhan.mp3 in Resources */,
+				BBA73CD11C523CD20095C687 /* InfoPlist.strings in Resources */,
+				BB608BB01C4FA7BA007601C0 /* duaa.txt in Resources */,
+				BB5212AC1C47F60700E24D73 /* Turkey adhan.mp3 in Resources */,
+				BB5212AB1C47F60700E24D73 /* Masjid Aqsa adhan.mp3 in Resources */,
+				BBA73CCC1C523CD10095C687 /* Localizable.strings in Resources */,
+				BBFC643A1C3E86D500E61D16 /* adan1.mp3 in Resources */,
+				BBFC64371C3E86D500E61D16 /* adan4.mp3 in Resources */,
 				BBC4FBAC1C2AE9FE00A39D5F /* Main.storyboard in Resources */,
+				BBFC64381C3E86D500E61D16 /* adan2.mp3 in Resources */,
+				BB605C9D1C57EAA800B00DE3 /* default.png in Resources */,
+				BB6A6EAB1C5F67D900023D72 /* JsonFile.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +602,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA73CDB1C523CD30095C687 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,18 +610,238 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA73CD61C523CD30095C687 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19203FB35A3F92BC61F20546 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Al ADAN/Pods-Al ADAN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DECA15C1ADDA236C9AE01B3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Al ADANTests/Pods-Al ADANTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4225E7B64FDE13645ABBE298 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Al ADAN/Pods-Al ADAN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56DD885E594B42055E608404 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61B8C208DD9FBFE275F44CE7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BA9DB75011DCB1D1AC59276 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A67D0E1F3AFF96F962CC79A2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Al ADANUITests/Pods-Al ADANUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB9497CF1C6E36D3003CE6F3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB9498021C6E36D3003CE6F3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Al ADAN/Pods-Al ADAN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB9498031C6E36D3003CE6F3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Al ADAN/Pods-Al ADAN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC5460CE1CA4F57418F9D496 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Al ADANTests/Pods-Al ADANTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		BB9497D01C6E36D3003CE6F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9497D11C6E36D3003CE6F3 /* MZBlurEffectAdapter.m in Sources */,
+				BB9497D21C6E36D3003CE6F3 /* SettingTableViewController.swift in Sources */,
+				BB9497D31C6E36D3003CE6F3 /* MZFormSheetPresentationViewController.m in Sources */,
+				BB9497D41C6E36D3003CE6F3 /* MZMethodSwizzler.m in Sources */,
+				BB9497D51C6E36D3003CE6F3 /* MZFormSheetPresentationController.m in Sources */,
+				BB9497D61C6E36D3003CE6F3 /* MZFormSheetPresentationViewControllerInteractiveAnimator.m in Sources */,
+				BB9497D71C6E36D3003CE6F3 /* PrayerTableViewController.swift in Sources */,
+				BB9497D81C6E36D3003CE6F3 /* MZTransition.m in Sources */,
+				BB9497D91C6E36D3003CE6F3 /* MZFormSheetContentSizingNavigationControllerAnimator.m in Sources */,
+				BB9497DA1C6E36D3003CE6F3 /* PrayerTableViewCell.swift in Sources */,
+				BB9497DB1C6E36D3003CE6F3 /* ReminderTableViewController.swift in Sources */,
+				BB9497DC1C6E36D3003CE6F3 /* PrayerClass.swift in Sources */,
+				BB9497DD1C6E36D3003CE6F3 /* Reminders.swift in Sources */,
+				BB9497DE1C6E36D3003CE6F3 /* UIViewController+TargetViewController.m in Sources */,
+				BB9497DF1C6E36D3003CE6F3 /* ReminderOptionsViewController.swift in Sources */,
+				BB9497E01C6E36D3003CE6F3 /* MZFormSheetContentSizingNavigationController.m in Sources */,
+				BB9497E11C6E36D3003CE6F3 /* MZFormSheetPresentationViewControllerAnimator.m in Sources */,
+				BB9497E21C6E36D3003CE6F3 /* ReminderTableViewCell.swift in Sources */,
+				BB9497E31C6E36D3003CE6F3 /* PrayerManager.swift in Sources */,
+				BB9497E41C6E36D3003CE6F3 /* AppDelegate.swift in Sources */,
+				BB9497E51C6E36D3003CE6F3 /* ShowPickerViewController.swift in Sources */,
+				BB9497E61C6E36D3003CE6F3 /* PrayerInfoViewController.swift in Sources */,
+				BB9497E71C6E36D3003CE6F3 /* MZFormSheetPresentationViewControllerSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBC4FB9F1C2AE9FE00A39D5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBC4FBA91C2AE9FE00A39D5F /* ViewController.swift in Sources */,
+				BB9497C11C6B4DBF003CE6F3 /* MZBlurEffectAdapter.m in Sources */,
+				BBFCC0341C352E5300445FDC /* SettingTableViewController.swift in Sources */,
+				BB9497C51C6B4DBF003CE6F3 /* MZFormSheetPresentationViewController.m in Sources */,
+				BB9497C91C6B4DBF003CE6F3 /* MZMethodSwizzler.m in Sources */,
+				BB9497C41C6B4DBF003CE6F3 /* MZFormSheetPresentationController.m in Sources */,
+				BB9497C71C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerInteractiveAnimator.m in Sources */,
+				BBC4FBD51C2AF35500A39D5F /* PrayerTableViewController.swift in Sources */,
+				BB9497CA1C6B4DBF003CE6F3 /* MZTransition.m in Sources */,
+				BB9497C31C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationControllerAnimator.m in Sources */,
+				BBC4FBD71C2AF58A00A39D5F /* PrayerTableViewCell.swift in Sources */,
+				BB085EB11C6358CA008981E5 /* ReminderTableViewController.swift in Sources */,
+				BBC4FBD91C2AFBFA00A39D5F /* PrayerClass.swift in Sources */,
+				BB085EAD1C6357E4008981E5 /* Reminders.swift in Sources */,
+				BB9497CB1C6B4DBF003CE6F3 /* UIViewController+TargetViewController.m in Sources */,
+				BB085EB31C636292008981E5 /* ReminderOptionsViewController.swift in Sources */,
+				BB9497C21C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationController.m in Sources */,
+				BB9497C61C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerAnimator.m in Sources */,
+				BB085EB71C64F52E008981E5 /* ReminderTableViewCell.swift in Sources */,
+				BB608BAD1C4E5A1B007601C0 /* PrayerManager.swift in Sources */,
 				BBC4FBA71C2AE9FE00A39D5F /* AppDelegate.swift in Sources */,
+				BB5212A21C45121F00E24D73 /* ShowPickerViewController.swift in Sources */,
+				BB5A9DE31C317CCD00C11256 /* PrayerInfoViewController.swift in Sources */,
+				BB9497C81C6B4DBF003CE6F3 /* MZFormSheetPresentationViewControllerSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +877,53 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		BB605C9F1C57EAA800B00DE3 /* default.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB605C9E1C57EAA800B00DE3 /* en */,
+				BB605CA01C57EAAA00B00DE3 /* fr */,
+			);
+			name = default.png;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BBA73CCE1C523CD10095C687 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA73CCD1C523CD10095C687 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		BBA73CD31C523CD20095C687 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA73CD21C523CD20095C687 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BBA73CD81C523CD30095C687 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA73CD71C523CD30095C687 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BBA73CDD1C523CD30095C687 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBA73CDC1C523CD30095C687 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		BBC4FBAA1C2AE9FE00A39D5F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BBC4FBAB1C2AE9FE00A39D5F /* Base */,
+				BBA73CC81C5141CD0095C687 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -305,6 +932,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BBC4FBB01C2AE9FE00A39D5F /* Base */,
+				BB605C991C57D88C00B00DE3 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,6 +940,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BB9498051C6E36D3003CE6F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62EBC359EF292A9183679CB /* Pods-Al ADAN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Al ADAN copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tensift.Al-ADAN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Al ADAN/BridgingHeader.h";
+			};
+			name = Debug;
+		};
+		BB9498061C6E36D3003CE6F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA63A0769F227E3C02D7C0C /* Pods-Al ADAN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Al ADAN copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tensift.Al-ADAN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Al ADAN/BridgingHeader.h";
+			};
+			name = Release;
+		};
 		BBC4FBC91C2AE9FE00A39D5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -348,7 +1002,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -387,7 +1041,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -397,28 +1051,33 @@
 		};
 		BBC4FBCC1C2AE9FE00A39D5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62EBC359EF292A9183679CB /* Pods-Al ADAN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Al ADAN/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tensift.Al-ADAN";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Al ADAN/BridgingHeader.h";
 			};
 			name = Debug;
 		};
 		BBC4FBCD1C2AE9FE00A39D5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA63A0769F227E3C02D7C0C /* Pods-Al ADAN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Al ADAN/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tensift.Al-ADAN";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Al ADAN/BridgingHeader.h";
 			};
 			name = Release;
 		};
 		BBC4FBCF1C2AE9FE00A39D5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0499876BC35907EB48187242 /* Pods-Al ADANTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Al ADANTests/Info.plist";
@@ -431,6 +1090,7 @@
 		};
 		BBC4FBD01C2AE9FE00A39D5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 270D1A5D9A9541D9E6DA7AF3 /* Pods-Al ADANTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Al ADANTests/Info.plist";
@@ -443,6 +1103,7 @@
 		};
 		BBC4FBD21C2AE9FE00A39D5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF483B14F374D5DE0DD9984 /* Pods-Al ADANUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Al ADANUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -455,6 +1116,7 @@
 		};
 		BBC4FBD31C2AE9FE00A39D5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18841B00FC0776FB87BD36D4 /* Pods-Al ADANUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Al ADANUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -468,6 +1130,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BB9498041C6E36D3003CE6F3 /* Build configuration list for PBXNativeTarget "Al ADAN Ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9498051C6E36D3003CE6F3 /* Debug */,
+				BB9498061C6E36D3003CE6F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BBC4FB9E1C2AE9FE00A39D5F /* Build configuration list for PBXProject "Al ADAN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -484,6 +1155,7 @@
 				BBC4FBCD1C2AE9FE00A39D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBC4FBCE1C2AE9FE00A39D5F /* Build configuration list for PBXNativeTarget "Al ADANTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +1164,7 @@
 				BBC4FBD01C2AE9FE00A39D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBC4FBD11C2AE9FE00A39D5F /* Build configuration list for PBXNativeTarget "Al ADANUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +1173,7 @@
 				BBC4FBD31C2AE9FE00A39D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

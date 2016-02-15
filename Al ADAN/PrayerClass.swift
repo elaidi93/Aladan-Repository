@@ -30,24 +30,26 @@ struct Prayer{
             return calendar.dateFromComponents(c)!
         }
     }
+    var formatedDate : String{
+        get{
+                var date = self.date
+                var interval = date.timeIntervalSinceNow
+                
+                if interval < 0{
+                    date = date.dateByAddingTimeInterval(86400)
+                    interval = date.timeIntervalSinceNow
+                }
+                
+                let seconds = Int((interval % 3600) % 60)
+                let minutes = Int((interval % 3600) / 60)
+                let hours = Int((interval / 3600))
+                
+                return String(format: "\(hours)h:\(minutes)m:\(seconds)s")
+        }
+    }
+    
     
     ///////Show convert millisecond to hour:minute:second
-    
-    func stringFromTimeInterval(date: NSDate) -> String {
-        var date = date
-        var interval = date.timeIntervalSinceNow
-        
-        if interval < 0{
-            date = date.dateByAddingTimeInterval(86400)
-            interval = date.timeIntervalSinceNow
-        }
-        
-        let seconds = Int((interval % 3600) % 60)
-        let minutes = Int((interval % 3600) / 60)
-        let hours = Int((interval / 3600))
-        
-        return String(format: "\(hours)h:\(minutes)m:\(seconds)s")
-    }
     
     init(){
         name = ""

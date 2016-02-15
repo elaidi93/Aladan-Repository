@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BlurryModalSegue.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MZAppearance.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-Al ADAN.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-Al ADANTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Pods-Al ADANUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>UIImage+BlurredFrame.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>009967A926D194007FC63804636A068B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44F3770C9CB9A41F9A883EDDB9E294E0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5032B122055F2BECBA38E2E89CA0036E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6EC00CD18D213D1A65E6533C4362FD66</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7393102FAB1C3A646095747014337EDE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF25F65D75D350790C791A76A6612FE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

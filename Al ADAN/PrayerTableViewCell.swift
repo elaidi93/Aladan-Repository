@@ -6,8 +6,12 @@
 //  Copyright © 2015 Hamza El Aidi. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 
 class PrayerTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var prayerImage : UIImageView!
+    @IBOutlet weak var prayerName : UILabel!
+    @IBOutlet weak var prayerTime : UILabel!
+    
+    
 }

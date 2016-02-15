@@ -1,12 +1,11 @@
-
 /* Class = "UILabel"; text = "Choose your Adhan"; ObjectID = "2Bc-DZ-yhG"; */
-"2Bc-DZ-yhG.text" = "Choose your Adhan";
+"2Bc-DZ-yhG.text" = "Choisir votre Adhan";
 
 /* Class = "UILabel"; text = "0 min"; ObjectID = "3KG-0c-vxo"; */
 "3KG-0c-vxo.text" = "0 min";
 
 /* Class = "UILabel"; text = "City :"; ObjectID = "5Gw-Sq-O3Q"; */
-"5Gw-Sq-O3Q.text" = "City :";
+"5Gw-Sq-O3Q.text" = "Ville :";
 
 /* Class = "UILabel"; text = "05:30:00"; ObjectID = "9WR-iB-SJM"; */
 "9WR-iB-SJM.text" = "05:30:00";
@@ -18,10 +17,10 @@
 "LgJ-59-x6c.text" = "Asobh";
 
 /* Class = "UITabBarItem"; title = "Settings"; ObjectID = "RlK-bH-ufG"; */
-"RlK-bH-ufG.title" = "Settings";
+"RlK-bH-ufG.title" = "Paramètre";
 
 /* Class = "UILabel"; text = "Enable athan voice :"; ObjectID = "W7K-Gf-96J"; */
-"W7K-Gf-96J.text" = "Enable athan voice :";
+"W7K-Gf-96J.text" = "Activer la Voix :";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "b00-dj-mSL"; */
 "b00-dj-mSL.text" = "Label";
@@ -45,10 +44,11 @@
 "t5d-rq-tV5.normalTitle" = "X";
 
 /* Class = "UILabel"; text = "Athan voices :"; ObjectID = "udl-Ik-Upz"; */
-"udl-Ik-Upz.text" = "Athan voices :";
+"udl-Ik-Upz.text" = "les voix Adhan :";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "vhx-3I-cjX"; */
 "vhx-3I-cjX.text" = "Label";
 
 /* Class = "UILabel"; text = "Notification Time"; ObjectID = "y44-Je-4L3"; */
-"y44-Je-4L3.text" = "Notification Time";
+"y44-Je-4L3.text" = "Temps de Notification";
+

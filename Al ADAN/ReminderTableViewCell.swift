@@ -6,8 +6,10 @@
 //  Copyright © 2016 Hamza El Aidi. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 
 class ReminderTableViewCell: UITableViewCell {
-
+    
+    @IBOutlet weak var remindDesc: UILabel!
+    @IBOutlet weak var remindDate: UILabel!
 }

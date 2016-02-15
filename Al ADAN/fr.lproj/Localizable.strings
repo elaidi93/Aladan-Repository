@@ -1,1 +1,6 @@
-IDELocalizationWork Temporary File
+/* Notification Body */
+"It's Time for (nextPrayer.name)" = "c'est le temp pour (nextPrayer.name)";
+
+/* Notification Title */
+"Prayer Time" = "temp de Prière";
+
