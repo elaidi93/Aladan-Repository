@@ -31,6 +31,7 @@ class ReminderOptionsViewController: UIViewController {
             
             reminders = [Reminder]()
             print("git test changing")
+            print("git test branch")
         }
         
     }
