@@ -26,6 +26,7 @@
 		BB608BAD1C4E5A1B007601C0 /* PrayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB608BAC1C4E5A1B007601C0 /* PrayerManager.swift */; };
 		BB608BB01C4FA7BA007601C0 /* duaa.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB608BAF1C4FA7BA007601C0 /* duaa.txt */; };
 		BB6A6EAB1C5F67D900023D72 /* JsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = BB6A6EAA1C5F67D800023D72 /* JsonFile.json */; };
+		BB72BCE41C74C10200127413 /* MainIpad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB72BCE31C74C10200127413 /* MainIpad.storyboard */; };
 		BB9497C11C6B4DBF003CE6F3 /* MZBlurEffectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497A81C6B4DBF003CE6F3 /* MZBlurEffectAdapter.m */; };
 		BB9497C21C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497AA1C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationController.m */; };
 		BB9497C31C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationControllerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9497AC1C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationControllerAnimator.m */; };
@@ -152,6 +153,7 @@
 		BB608BAC1C4E5A1B007601C0 /* PrayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerManager.swift; sourceTree = "<group>"; };
 		BB608BAF1C4FA7BA007601C0 /* duaa.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = duaa.txt; sourceTree = "<group>"; };
 		BB6A6EAA1C5F67D800023D72 /* JsonFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JsonFile.json; path = ../JsonFile.json; sourceTree = "<group>"; };
+		BB72BCE31C74C10200127413 /* MainIpad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainIpad.storyboard; sourceTree = "<group>"; };
 		BB9497A71C6B4DBF003CE6F3 /* MZBlurEffectAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZBlurEffectAdapter.h; sourceTree = "<group>"; };
 		BB9497A81C6B4DBF003CE6F3 /* MZBlurEffectAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZBlurEffectAdapter.m; sourceTree = "<group>"; };
 		BB9497A91C6B4DBF003CE6F3 /* MZFormSheetContentSizingNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZFormSheetContentSizingNavigationController.h; sourceTree = "<group>"; };
@@ -353,6 +355,7 @@
 				BBFC642F1C3E85D100E61D16 /* adan sounds */,
 				BBC4FBA61C2AE9FE00A39D5F /* AppDelegate.swift */,
 				BBC4FBAA1C2AE9FE00A39D5F /* Main.storyboard */,
+				BB72BCE31C74C10200127413 /* MainIpad.storyboard */,
 				BBC4FBAD1C2AE9FE00A39D5F /* Assets.xcassets */,
 				BBDA9DE71C59250600C2AB4F /* Info.plist */,
 				BBC4FBAF1C2AE9FE00A39D5F /* LaunchScreen.storyboard */,
@@ -558,6 +561,7 @@
 				BB9497F61C6E36D3003CE6F3 /* malaysia adhan.mp3 in Resources */,
 				BB9497F71C6E36D3003CE6F3 /* InfoPlist.strings in Resources */,
 				BB9497F81C6E36D3003CE6F3 /* duaa.txt in Resources */,
+				BB72BCE41C74C10200127413 /* MainIpad.storyboard in Resources */,
 				BB9497F91C6E36D3003CE6F3 /* Turkey adhan.mp3 in Resources */,
 				BB9497FA1C6E36D3003CE6F3 /* Masjid Aqsa adhan.mp3 in Resources */,
 				BB9497FB1C6E36D3003CE6F3 /* Localizable.strings in Resources */,
@@ -950,6 +954,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tensift.Al-ADAN";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Al ADAN/BridgingHeader.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -963,6 +968,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tensift.Al-ADAN";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Al ADAN/BridgingHeader.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

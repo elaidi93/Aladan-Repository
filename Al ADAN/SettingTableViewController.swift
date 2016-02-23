@@ -33,10 +33,9 @@ class SettingTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         if (indexPath.section == 1 && indexPath.row == 3){
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let vc = storyboard.instantiateViewControllerWithIdentifier("ShowPicker")
-            vc.modalPresentationStyle = UIModalPresentationStyle.CurrentContext
-            self.presentViewController(vc, animated: true, completion: nil)
+            let vc = storyboard?.instantiateViewControllerWithIdentifier("ShowPicker")
+            vc!.modalPresentationStyle = UIModalPresentationStyle.CurrentContext
+            self.presentViewController(vc!, animated: true, completion: nil)
         }
         
         tableView.deselectRowAtIndexPath(indexPath, animated: true)

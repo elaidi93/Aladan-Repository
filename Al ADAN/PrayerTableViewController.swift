@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class PrayerTableViewController: UITableViewController {
+class PrayerTableViewController: UITableViewController, UIPopoverPresentationControllerDelegate {
     
     let defaults = NSUserDefaults.standardUserDefaults()
     var prayerManager = PrayerManager()
@@ -125,6 +125,25 @@ class PrayerTableViewController: UITableViewController {
         
     }
     
+    //////////// show parametre as popOver
+    @IBAction func showParametrePopOver(sender: AnyObject) {
+        
+        let vc = storyboard?.instantiateViewControllerWithIdentifier("parametre") as! SettingTableViewController
+        vc.preferredContentSize = CGSize(width: UIScreen.mainScreen().bounds.width / 2, height: UIScreen.mainScreen().bounds.height / 2)
+        let navController = UINavigationController(rootViewController: vc)
+        navController.modalPresentationStyle = UIModalPresentationStyle.Popover
+        
+        let popOver = navController.popoverPresentationController
+        popOver?.delegate = self
+        popOver?.barButtonItem = sender as? UIBarButtonItem
+        
+        self.presentViewController(navController, animated: true, completion: nil)
+        
+    }
+    
+    func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
+        return .None
+    }
 }
 
 

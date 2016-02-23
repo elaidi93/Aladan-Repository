@@ -9,18 +9,24 @@
 import UIKit
 import AVFoundation
 
-
-class ReminderTableViewController: UITableViewController, UpdateTableViewDelegate {
+var reminderController : ReminderOptionsViewController!
+var device = UIDevice.currentDevice().userInterfaceIdiom
+class ReminderTableViewController: UITableViewController, UpdateTableViewDelegate, UIPopoverPresentationControllerDelegate {
     
     let getDefault = NSUserDefaults.standardUserDefaults()
     var reminders = [Reminder]()
     var deleteReminderIndexPath : NSIndexPath!
     //var mz = MZFormSheetPresentationController()
-    var reminderController : ReminderOptionsViewController!
     
     override func viewDidLoad() {
-        reminderController = self.storyboard?.instantiateViewControllerWithIdentifier("formSheetController") as! ReminderOptionsViewController
-        reminderController.delegate = self
+        if (device == UIUserInterfaceIdiom.Phone){
+            reminderController = self.storyboard?.instantiateViewControllerWithIdentifier("formSheetController") as! ReminderOptionsViewController
+            reminderController.delegate = self
+        }else{
+            let vc = self.splitViewController?.viewControllers[1] as! ReminderOptionsViewController
+            vc.delegate = self
+        }
+        
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -152,7 +158,7 @@ class ReminderTableViewController: UITableViewController, UpdateTableViewDelegat
         UIApplication.sharedApplication().scheduleLocalNotification(Notification)
         
     }
-    
+
 }
 
 

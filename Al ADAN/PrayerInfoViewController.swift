@@ -10,6 +10,7 @@ import UIKit
 
 class PrayerInfoViewController: UIViewController {
     
+    var prayerManager = PrayerManager()
     var currentPrayer : Prayer?
     var currentPrayerDate : NSDate!
     
@@ -23,7 +24,10 @@ class PrayerInfoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        prayerManager.makePrayers()
+        if(currentPrayer == nil){
+            currentPrayer = prayerManager.prayers[0]
+        }
         currentPrayerDate = currentPrayer!.date
         updateTime()
         updateUI()

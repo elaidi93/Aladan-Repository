@@ -23,16 +23,7 @@ class ReminderOptionsViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         
-        if let decodeData = setDefault.objectForKey("reminders"){
-        
-            reminders = NSKeyedUnarchiver.unarchiveObjectWithData(decodeData as! NSData) as! [Reminder]
-        
-        }else{
-            
-            reminders = [Reminder]()
-            print("git test changing")
-            print("git test branch")
-        }
+        refreshReminders()
         
     }
     
@@ -41,18 +32,39 @@ class ReminderOptionsViewController: UIViewController {
     
     @IBAction func confirmation(sender: AnyObject) {
         
+        refreshReminders()
+        
         reminder = Reminder(descript: remindDescription.text!, date: remindDate.date)
         reminders.append(reminder)
+        
         let encodeData = NSKeyedArchiver.archivedDataWithRootObject(reminders)
         
         setDefault.setObject(encodeData, forKey: "reminders")
         setDefault.synchronize()
-        self.dismissViewControllerAnimated(true, completion: nil)
-        
         delegate?.updateTableView()
+        print(reminders.count)
+        self.dismissViewControllerAnimated(true, completion: nil)
+        remindDescription.text = ""
+        
+        
     }
+    
     @IBAction func cancel(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
+        print(reminders)
+    }
+    
+    
+    func refreshReminders(){
+        
+        if let decodeData = setDefault.objectForKey("reminders"){
+            
+            reminders = NSKeyedUnarchiver.unarchiveObjectWithData(decodeData as! NSData) as! [Reminder]
+            
+        }else{
+            
+            reminders = [Reminder]()
+        }
     }
 }
 
