@@ -28,7 +28,7 @@ class PrayerInfoViewController: UIViewController {
         if(currentPrayer == nil){
             currentPrayer = prayerManager.prayers[0]
         }
-        currentPrayerDate = currentPrayer!.date
+        
         updateTime()
         updateUI()
         _ = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "updateTime", userInfo: nil, repeats: true)

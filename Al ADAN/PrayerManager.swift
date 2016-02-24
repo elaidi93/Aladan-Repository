@@ -74,9 +74,7 @@ class PrayerManager{
         if filemgr.fileExistsAtPath(path!){
             let duaas = try! String(contentsOfFile: path!, encoding: NSUTF8StringEncoding)
             prayersDuaa = duaas.componentsSeparatedByString("\n")
-            for i in prayersDuaa{
-                print(i)
-            }
+            
         }
         return prayersDuaa
     }

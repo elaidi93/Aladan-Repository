@@ -118,7 +118,6 @@ class PrayerTableViewController: UITableViewController, UIPopoverPresentationCon
     ////////////Get Jason Content
     func jsonContent(){
         let path = NSBundle.mainBundle().pathForResource("JsonFile", ofType: "json")
-        print(path)
         let jasonData = NSData(contentsOfFile: path!) as NSData!
         let readableJson = try! NSJSONSerialization.JSONObjectWithData(jasonData!, options: .MutableContainers)
         print(readableJson)
