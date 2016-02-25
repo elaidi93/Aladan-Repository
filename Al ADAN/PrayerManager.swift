@@ -60,7 +60,6 @@ class PrayerManager{
                 
                 if interval > 0 {
                     return prayer
-                    
                 }
         }
         return prayer
